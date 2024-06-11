@@ -8,7 +8,7 @@ terraform {
 }
 provider "google" {
   project = "1048749546373"
-  region  = "us-central1"
+  region  = "northamerica-northeast1-a"
 }
 
 provider "google-beta" {

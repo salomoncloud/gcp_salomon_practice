@@ -7,7 +7,7 @@ terraform {
   }
 }
 provider "google" {
-  project = "1048749546373"
+  project = put your project id in a protected env var
   region  = "northamerica-northeast1"
 }
 

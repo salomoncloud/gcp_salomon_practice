@@ -1,7 +1,7 @@
 resource "google_cloud_run_service" "cloud-run" {
   name     = "cloudrun-class-work"
   project = "1048749546373"
-  region  = "northamerica-northeast1-a"
+  location  = "northamerica-northeast1-a"
 
   template {
     spec {

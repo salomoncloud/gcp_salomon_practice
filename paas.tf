@@ -6,7 +6,7 @@ resource "google_cloud_run_service" "cloud-run" {
   template {
     spec {
       containers {
-        image = "us-docker.pkg.dev/cloudrun/container/hello"
+        image = "us-docker.pkg.dev/1048749546373/container/hello"
       }
     }
   }

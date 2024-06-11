@@ -1,12 +1,12 @@
 resource "google_cloud_run_service" "cloud-run" {
   name     = "cloudrun-class-work"
-  project = "1048749546373"
+  project = put your project id in a protected env var
   location  = "northamerica-northeast1-a"
 
   template {
     spec {
       containers {
-        image = "us-docker.pkg.dev/1048749546373/container/hello"
+        image = "us-docker.pkg.dev/project id/container/hello"
       }
     }
   }
